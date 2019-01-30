@@ -1,0 +1,15 @@
+{
+  "name": "file-copy",
+  "version": "1.0.0",
+  "description": "Copies entire folder and content from source to directory",
+  "main": "copy.js",
+  "scripts": {
+    "copy": "node Copy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Kapuria",
+  "license": "ISC",
+  "dependencies": {
+    "ncp": "^2.0.0"
+  }
+}
